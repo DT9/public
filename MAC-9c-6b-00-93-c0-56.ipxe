@@ -1,0 +1,12 @@
+#!ipxe
+menu select OS
+item --key d debian debian
+item --key n netboot netboot
+choose --timeout 15000 --default debian selected || shell
+goto ${selected}
+:debian
+kernel http://deb.debian.org/debian/dists/bookworm/main/installer-amd64/current/images/netboot/debian-installer/amd64/linux auto=true priority=critical preseed/inline="d-i netcfg/get_hostname string debian;d-i netcfg/choose_interface select auto;d-i passwd/username string debian;d-i passwd/user-password-crypted password !;d-i partman-auto/method string regular;d-i partman-auto/disk string /dev/nvme1n1;d-i partman-auto/choose_recipe select atomic;d-i partman/choose_partition select finish;d-i partman/confirm boolean true;d-i partman/confirm_nooverwrite boolean true;d-i pkgsel/include string sudo openssh-server zerotier-one;d-i grub-installer/skip boolean true;d-i preseed/late_command string      mkdir -p /target/home/debian/.ssh;echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA8cR0q4kvA/Br2ze27RYWETDfpxsbFJZogN5sW7OHhw m3" > /target/home/debian/.ssh/authorized_keys;chown -R debian:debian /target/home/debian/.ssh;chmod 600 /target/home/debian/.ssh/authorized_keys;usermod -aG sudo debian;passwd -d debian;systemctl --root=/target enable ssh;sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' /target/etc/ssh/sshd_config;zerotier-cli join 6ab565387a9084c1"
+initrd http://deb.debian.org/debian/dists/bookworm/main/installer-amd64/current/images/netboot/debian-installer/amd64/initrd.gz
+boot || shell
+:netboot
+chain --autofree https://boot.netboot.xyz/menu.ipxe || shell
