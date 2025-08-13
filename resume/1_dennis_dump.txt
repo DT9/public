@@ -1,0 +1,275 @@
+My favourite editor is VS Code.
+Part of Toastmasters Speech Club.
+Artisanal popcorn, Pho & Ramyeon lover.
+Backpacked Europe/Asia.
+DEFCON, BSIDES, TENGUSEC attendee.
+Cars Boats Woodworking Ukulele
+Kickboxing Climbing Diving.
+Life long love of learning.
+
+
+WEALTHPARK Cybersecurity Engineer
+August 2022 - Present | Tokyo, Japan
+• Led cloud and network security research to develop detection logic and signals
+for identifying attacker tactics, techniques, and procedures (TTPs).
+• Executed 24/7 security operations center (SOC) activities, real-time
+monitoring and incident response for security alerts and major incidents.
+• Investigated security events across endpoint detection and response (EDR),
+security information and event management (SIEM), and cloud telemetry to
+assess impact and support remediation.
+• Developed custom detections for advanced persistent threats (APT) and
+insider threats across endpoint, network, and cloud environments.
+• Built and maintained automated detection and response workflows using SIEM
+and security orchestration, automation, and response (SOAR) platforms.
+• Performed digital forensics and incident response (DFIR), analyzing indicators
+of compromise (IOC), malware behavior, and attacker techniques.
+• Integrated cyber threat intelligence (CTI) feeds and threat models to improve
+detection coverage and reduce false positives.
+• Collaborated with development and DevOps teams to embed security controls
+and logging into software development life cycle (SDLC) and continuous
+integration/continuous deployment (CI/CD) pipelines.
+• Created and delivered technical security training to reduce human error and
+improve detection capabilities across teams.
+• Established and led computer security incident response team (CSIRT)
+processes and governance for effective threat response.
+• Ensured compliance with data protection and cybersecurity regulations and
+frameworks, including NIST, PCI DSS, APPI, CIS, ISMS, and FISC.
+• Conducted investigations into data breaches, intellectual property theft, and
+information leaks, working with legal and human resources to manage insider
+threat cases.
+
+GAP YEAR jet alt
+June 2019 - July 2022 | Canada -> Japan
+Taught English, rock climbed, traveled, volunteer, therapy, language classes, etc
+JOBBER Data Engineer
+May 2018 - May 2019 | Edmonton, AB
+HAEMONETICS Full Stack Web Developer
+May 2016 - Dec 2016 | Edmonton, AB
+INSTAMEK SWE Intern
+May 2015 -￿ Aug 2015 | Edmonton, AB
+PAST PROJECTS
+SECURITY PROJECTS Network Security Club
+• Collaborated with teammates to crack ciphers/passwords, configure
+firewall/certificates, capture/spoof packets, penetrate servers, and
+identify/exploit vulnerabilities in binaries.
+PROGRAMMING PROBLEMS UVA, Programming Club
+• Solved and learned problems weekly at the club. Participated in local
+hackathons and online contests. UVA:dtruong1, Leetcode:dt9
+
+
+Year 1 (2022): Foundation & Operational Security
+Supported real-time monitoring of alerts and system events using basic DataDOG dashboards and cloud logs.
+Assisted in email phishing investigations, classifying threats and creating internal reports on common indicators (IP, domain, attachment types).
+Conducted basic malware triage using VirusTotal, Any.Run, and static file analysis tools.
+Maintained and updated internal IP/domain blocklists and alert thresholds for noisy or low-fidelity detections.
+Helped validate and escalate incidents.
+Participated in asset inventory tasks, tracking exposed ports, expired certs, and misconfigured cloud resources using open-source tools.
+Contributed to the delivery of security awareness training sessions, focusing on phishing, MFA hygiene, and device hardening.
+
+Year 2 (2023): Cyber Defense Projects / JIRA Strategy
+Monitoring AWS GuardDuty, CloudTrail, and Security Hub into a centralized log pipeline (DataDog), enhancing threat visibility across multi-account environments and aligning with CIS AWS Foundations benchmarks.
+Designed and deployed Datadog dashboards for each product team, providing tailored visibility into containerized workloads and infrastructure health; collaborated with engineers to define relevant KPIs and log-based alerts.
+Engineered and deployed detection signatures for high-impact scenarios including unauthorized access attempts, IAM privilege escalation, and container breakout etc.
+Collaborated cross-functionally with sre to harden Containers, implementing least-privilege IAM policies, validating security group configurations, and reducing root users on containers.
+Mapped to MITRE ATT&CK, identifying detection gaps/detection space.
+Authored and standardized SOC playbooks and incident classification models, improving response consistency and analyst onboarding for 24/7 security operations.
+Designed and initiated the company’s CSIRT process, including incident severity classification, triage workflows, escalation paths, and after-action reporting standards; aligned with NIST and JPCERT guidelines.
+(edited)
+
+Year 3 (2024): Detection Engineering, Threat Intel & Security Program (2025), Dennis (BlueTeam);
+Architected and led the deployment of a scalable SIEM platform, correlating telemetry from AWS, Kubernetes, container runtimes, and others endpoints; implemented data normalization, enrichment, and long-term log storage to support detection, audit, and compliance use cases.
+Authored and optimized advanced detection rules using Sigma, KQL, and Elasticsearch DSL, targeting high-risk behaviors such as lateral movement, credential abuse, and privilege escalation in ephemeral containerized environments. ( not start )
+Expanded threat intelligence capabilities by integrating multiple open-source and commercial threat feeds (e.g., Abuse.ch, MISP, VirusTotal) into the detection pipeline; developed automated enrichment of IOCs in alerts and centralized TI reporting for SOC analysts. ( not start )
+Conducted internal threat landscape assessments tailored to the company’s industry and tech stack, helping prioritize detection engineering efforts and patch management based on TTPs mapped to MITRE ATT&CK.
+Formalized and scaled the internal CSIRT program, introducing structured incident severity models, on-call escalation procedures, and cross-department incident war rooms to reduce response time and improve post-incident learning.
+Integrated proactive incident response playbooks into SOC workflows, and conducted regular simulation drills (tabletop + technical), with focus on ransomware, supply chain compromise, and cloud misconfiguration scenarios. (not start)
+Led the creation of an AWS-based forensics lab environment, leveraging snapshots, centralized S3 log buckets, and EC2 analysis instances to safely triage compromised resources without impacting production systems.
+Implemented and audited database activity monitoring controls in alignment with APPI (Japan’s Act on the Protection of Personal Information), ensuring visibility into privileged queries, role changes, and anomalous access patterns; partnered with legal and engineering to define thresholds and compliance criteria.
+Improved SOC monitoring coverage and efficiency by building metrics to track alert quality, false positive rates, and mean time to respond (MTTR), driving continuous improvement through automation and analyst feedback loops.
+Implemented Zero Trust architecture, enforcing strict identity verification and least privilege access across cloud and on-prem environments. (Review)
+
+Optimized Cloudflare WAF, DDoS protection, and bot management, enhancing perimeter defense and reducing attack surface.
+
+
+| Year      | Focus                                | Description                                              |
+| --------- | ------------------------------------ | -------------------------------------------------------- |
+| 2022      | Foundation & Operational Security    | Real-time monitoring, basic triage, awareness training   |
+| 2023      | Projects & SOC Maturity              | Centralized detection, MITRE coverage, CSIRT design      |
+| 2024–2025 | Threat Intel & Detection Engineering | SIEM scaling, Zero Trust, forensic readiness, compliance |
+
+
+
+
+
+EDUCATION
+University of Alberta
+BS in Computer Science
+Minor in Business
+Game Dev Certificate
+JLPT N3
+EXPERIENCES
+SBT Blue Team Level 2 & 1
+CompTIA Security+ CE
+Amazon Certified Cloud Practitioner
+HTB: dt9#23363
+CTFtime: uofagold
+Github / Linkedin: dt9
+TECHNICAL
+Lang: Ruby, Python, JS, SQL, C++, PHP, etc
+SOC: Splunk, Datadog, Sigma, zeek, rita,
+wireshark, chainsaw, brim,
+DFIR: volatility, autopsy, EZ tools, KAPE,
+sysinternals, procHack, resHack,
+Threat: misp, thehive, cortex, google rapid
+response, HELK, openCTI
+Malware: PEstudio, PEiD, procdot,
+regshot, pdfid, OMS, lazyoffice, yara,
+oletools,
+Talks/Workshops: phishing, falco
+DevSecOps/SRE: Terraform/grunt, k8s,
+helm, docker, okta, opa gatekeeper, dast,
+sast, owasp zap, sentinelone, snyk,
+cloudflare, cillium, gvisor, wazuh, tetragon,
+falco, apparmor, mtls, windmill, honeypot
+AWS: cloudtrail, guardduty, backup,
+disaster recovery, SecurityHub,
+GuardRails,
+Concepts: mitre, dettect, APT
+Misc: wordpress, pdf
+
+
+CURRENT/PAST PROJECTS
+PROXMOX K8S HOMELAB 6C 96GB RAM RTX 3080
+- from iPXE to production ready cluster (wip) - tinkerbell, ansible, cloudinit, 
+SECURITY PROJECTS Network Security Club
+• Collaborated with teammates to crack ciphers/passwords, configure
+firewall/certificates, capture/spoof packets, penetrate servers, and
+identify/exploit vulnerabilities in binaries.
+PROGRAMMING PROBLEMS UVA, Programming Club
+• Solved and learned problems weekly at the club. Participated in local
+hackathons and online contests. UVA:dtruong1, Leetcode:dt9
+
+
+---- i like the language
+
+SUMMARY
+6 years of experience in DevOps with a focus on Kubernetes and CI/CD
+Advanced expertise with Google Cloud Platform and AWS
+2 years of experience in Data Science specializing in Predictive Maintenance
+KEY ACHIEVEMENTS
+• Led the implementation and application of scalable Kubernetes clusters to improve
+development workflows.
+• Developed a predictive AI model for ticket forecasting, achieving 89% accuracy in
+predicting customer inquiries.
+• Designed and implemented a unified system for feature stores, enhancing data ac-
+cessibility for AI/ML projects.
+TECHNICAL EXPERIENCE
+IT Specialist / CEO | Patoko Services
+z April 2024 – Present * Darmstadt, Germany
+• Providing DevOps, Data Science, and MLOps solutions to clients.
+• Developing and managing Kubernetes clusters, implementing CI/CD pipelines, and
+providing cloud infrastructure support.
+• Creating data-driven solutions and machine learning models for business applica-
+tions.
+• Offering managed server infrastructure, including ERP systems, for various compa-
+nies.
+• Skills: Kubernetes, Docker, GitLab, AWS, Python, Machine Learning
+Project: Client IT Infrastructure Support and Analysis
+• z April 2024 – Present
+• Provided support and administration for the client’s Infor ERP system.
+• Managed the client’s MS SQL Server database.
+• Performed Customer Relations (CR) analysis and generated statistics for the
+client.
+• Technologies: Infor ERP, MS SQL Server, SQL
+DevOps & MLOps Engineer | Deutsche Telekom AG
+z September 2020 – March 2024 * Darmstadt, Germany
+• Built Kubernetes clusters and developed Golang-based tools for container manage-
+ment.
+• Developed ML models, conducted data analysis to support business operations, and
+implemented a feature store.
+• DevOps-Skills: Kubernetes, Docker, Golang, AWS, GitLab
+• DataScience Skills: Pytorch, TensorFlow, PySpark, Python, Apache Spark
+Datadog Chainsaw
+Wireshark Brim
+Volatility Autopsy
+EZ Tools KAPE
+Sysinternals ProcHack
+ResHack
+MISP TheHive
+Cortex GRR HELK
+OpenCTI
+YARA PEstudio
+PEiD Procdot
+Regshot PDFiD
+OMS LazyOffice
+Oletools
+Phishing Falco
+WordPress PDF
+LANGUAGES
+English: Canadian Native
+Japanese: Intermediate N3
+Chinese: Intermediate HSK3
+German: Beginner A0
+Project: Consolidation of Feature Stores
+• z April 2023 – March 2024
+• ² Role: Coordinated feature store architects and implemented the unified
+feature store.
+• Streamlined data preparation for AI/ML projects by unifying multiple internal
+feature stores into a centralized, self-updating system.
+• Technologies: SQL, Python, Hive, Automation, Apache Spark
+• Results: Enabled all Data Scientists to rely on a single, self-updating source, elim-
+inating redundant team-specific feature stores and improving data consistency.
+Project: Future-Oriented Predictive Ticketing
+• z Sept. 2022 – March 2023
+• ² Role: Analyzed internal company workflows in collaboration with support
+staff and designed the AI data model.
+• Independently developed a predictive model to forecast customer inquiries,
+enabling proactive customer support and increasing customer satisfaction.
+• Technologies: SQL, Python, H2O.ai, Apache Spark, PyTorch
+• Results: Achieved an approximate prediction accuracy of 89% for forecasting
+customer tickets within a 7-day window.
+Project: Kubernetes Cluster Tooling and Evaluation
+• z Sept. 2021 – Sept. 2022
+• ² Role: DevOps Engineer
+• Developed CI/CD examples and guides for Telekom employees.
+• Provided training on Kubernetes best practices and usage.
+• Documented cluster resource usage and management procedures.
+• Developed and evaluated tools to optimize the Kubernetes cluster, including
+testing external solutions such as Rancher.
+• Technologies: Kubernetes, Docker, Go, Rancher
+Project: Modernizing Legacy Infrastructure with Kubernetes
+• z Sept. 2020 – Sept. 2021
+• ² Role: Team Lead (Leading 3 members)
+• Modernized IT infrastructure by building a highly available and scalable Kuber-
+netes cluster.
+• Established the company’s inaugural Kubernetes cluster, serving as a key enabler
+for future Kubernetes-based initiatives.
+• Technologies: Kubernetes, GitLab, Docker, Go, Rancher
+• Results: The Kubernetes cluster incentivized the modernization of legacy appli-
+cations and enabled faster prototyping and testing cycles.
+DevOps Engineer / CEO | Patoko Services
+z September 2019 – September 2020 * Arnsberg, Germany
+• Maintained own product, developed software fixes, and optimized performance.
+• Skills: Kubernetes, Helm Charts, GitLab
+Software Engineer | Freelance
+z January 2019 – June 2019 * Itabashi-ku, Tokyo, Japan
+• Freelanced developing software for hospital management.
+• Skills: C#, .NET Framework, Visual Basic
+Full-Stack Developer / CEO | Patoko Services
+z February 2016 – August 2018 * Frankfurt am Main, Germany
+• Released a proprietary product: PocketServer, an on-demand container server plat-
+form.
+• Developed a comprehensive suite, including a Kotlin-based Android app for purchas-
+ing game and application servers, with the underlying infrastructure implemented on
+GCP.
+• Skills: Kubernetes, Google Cloud Platform (GCP), Docker, Kotlin, Android
+EDUCATION
+Bachelor in Computer Science |
+Darmstadt University of Applied Sciences
+z October 2020 – August 2024 * Darmstadt, Germany
+• Bachelor’s Thesis: Development of a procedural model for generating maximum fa-
+cial similarity in Stable Diffusion.
+• Thesis Grade: 1.7
+Japanese Studies (Japanese Law, Subsidiary: German Criminal Law) |
+Johann Wolfgang Goethe University Frankfurt am Main
+z October 2012 – October 2018 * Frankfurt, Germany

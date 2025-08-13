@@ -1,0 +1,148 @@
+DENNIS TRUONG, B.Sc.
+Cybersecurity Engineer | SOC Operations | Detection Engineering
+Email: dennis.truong@ualberta.ca | Phone: +81 070 8345 1289 | Location: Tokyo, Japan
+LinkedIn: linkedin.com/in/dt9 | GitHub: github.com/dt9
+
+═══════════════════════════════════════════════════════════════════════════════════════
+
+PROFESSIONAL SUMMARY
+═══════════════════════════════════════════════════════════════════════════════════════
+
+• Cybersecurity Engineer with 3+ years of hands-on SOC experience in cloud and containerized environments
+• Developed detection logic and custom rules for identifying attacker TTPs, with focus on APT and insider threats
+• Built automated detection workflows using SIEM and SOAR platforms to improve response efficiency
+• Established CSIRT processes and governance following NIST guidelines for incident response coordination
+
+═══════════════════════════════════════════════════════════════════════════════════════
+
+TECHNICAL SKILLS
+═══════════════════════════════════════════════════════════════════════════════════════
+
+PROGRAMMING & SCRIPTING
+• Languages: Ruby, Python, JavaScript, SQL, C++, PHP
+• Security Automation: Python scripting for SOC workflows
+
+SECURITY OPERATIONS & MONITORING  
+• SIEM Platforms: Splunk, Datadog (primary experience)
+• Detection Engineering: Sigma rules, custom detection development
+• Network Analysis: Zeek, Rita, Wireshark, Chainsaw, Brim
+• Log Analysis: AWS CloudTrail, GuardDuty, Security Hub integration
+
+DIGITAL FORENSICS & INCIDENT RESPONSE
+• DFIR Tools: Volatility, Autopsy, EZ Tools, KAPE, Sysinternals
+• Malware Analysis: PEstudio, PEiD, Procdot, Regshot, PDFiD, YARA, Oletools
+• Investigation: VirusTotal, Any.Run sandbox analysis
+• Evidence Analysis: Static file analysis, IOC extraction
+
+THREAT INTELLIGENCE & HUNTING
+• TI Platforms: MISP, TheHive, Cortex, OpenCTI
+• Frameworks: MITRE ATT&CK mapping, detection gap analysis
+• IOC Management: Threat feed integration, automated enrichment
+
+CLOUD & CONTAINER SECURITY
+• AWS Services: GuardDuty, CloudTrail, SecurityHub, IAM
+• Container Security: Kubernetes security policies, container hardening
+• DevSecOps: Terraform, Docker, Helm, CI/CD security integration
+• Monitoring: Falco, Tetragon, Wazuh runtime protection
+
+COMPLIANCE & GOVERNANCE
+• Frameworks: NIST, PCI DSS, APPI (Japan), CIS benchmarks
+• Documentation: SOC playbooks, incident classification models
+• Training: Security awareness, phishing prevention
+
+═══════════════════════════════════════════════════════════════════════════════════════
+
+PROFESSIONAL EXPERIENCE
+═══════════════════════════════════════════════════════════════════════════════════════
+
+CYBERSECURITY ENGINEER | WEALTHPARK | Tokyo, Japan | August 2022 - Present
+
+► Security Operations & Detection (Year 1 - Foundation)
+• Supported 24/7 SOC monitoring using Datadog dashboards and AWS cloud logs
+• Assisted in phishing investigations, classifying threats and creating internal reports on common indicators
+• Conducted malware triage using VirusTotal, Any.Run, and static analysis tools
+• Maintained IP/domain blocklists and alert thresholds to reduce false positives
+• Participated in asset inventory tracking exposed ports, certificates, and cloud misconfigurations
+• Contributed to security awareness training delivery focusing on phishing and MFA hygiene
+
+► Detection Engineering & Projects (Year 2 - Development)  
+• Integrated AWS GuardDuty, CloudTrail, and SecurityHub into centralized Datadog pipeline
+• Designed custom Datadog dashboards for product teams providing containerized workload visibility
+• Developed detection signatures for unauthorized access, IAM privilege escalation, and container breakouts
+• Collaborated with SRE teams to implement least-privilege IAM policies and security group hardening
+• Mapped detection coverage to MITRE ATT&CK framework to identify gaps
+• Authored SOC playbooks and incident classification models for consistent response procedures
+• Designed company CSIRT process including severity classification and escalation workflows
+
+► Advanced Security Program (Year 3 - Leadership)
+• Architected SIEM platform deployment correlating AWS, Kubernetes, and endpoint telemetry
+• Led creation of AWS-based forensics lab using EC2 snapshots and S3 log storage
+• Implemented database activity monitoring for APPI compliance with legal team coordination  
+• Built metrics tracking for alert quality and MTTR to drive SOC improvement initiatives
+• Collaborated with development teams to embed security controls in SDLC and CI/CD pipelines
+• Conducted investigations of data breaches and insider threat cases with HR and legal teams
+
+PRIOR EXPERIENCE
+• JET Programme Participant (2019-2022): English teaching in Japan, achieved JLPT N3
+• Data Engineer, JOBBER (2018-2019): Data pipelines, SQL, analytics
+• Full Stack Developer, HAEMONETICS (2016): Web applications, secure coding
+• Software Engineering Intern, INSTAMEK (2015): Development, QA
+
+═══════════════════════════════════════════════════════════════════════════════════════
+
+EDUCATION & CERTIFICATIONS
+═══════════════════════════════════════════════════════════════════════════════════════
+
+EDUCATION
+Bachelor of Science in Computer Science | University of Alberta | Edmonton, AB | 2012-2018
+• Minor: Business Administration  
+• Certificate: Game Development
+• Activities: Network Security Club (CTF competitions), Programming Club
+
+CERTIFICATIONS  
+• SANS Blue Team Level 1 (BTL1) & Blue Team Level 2 (BTL2) - 2024
+• CompTIA Security+ CE (Continuing Education) - 2023
+• AWS Certified Cloud Practitioner - 2022
+
+TARGET CERTIFICATIONS (2025-2026)
+• CISSP (Certified Information Systems Security Professional) - Target Q4 2026
+• GCIH (GIAC Certified Incident Handler) - Planned Q4 2026
+• AWS Certified Security - Specialty - Planned Q3 2025
+• CKS (Certified Kubernetes Security Specialist) - Target Q4 2025
+
+═══════════════════════════════════════════════════════════════════════════════════════
+
+KEY CYBERSECURITY PROJECTS
+═══════════════════════════════════════════════════════════════════════════════════════
+
+CENTRALIZED SIEM DEPLOYMENT (2024)
+• Architected multi-source log aggregation from AWS, Kubernetes, and endpoints
+• Implemented data normalization and long-term storage for compliance requirements
+• Built custom detection rules targeting container-specific attack vectors
+
+ENTERPRISE CSIRT ESTABLISHMENT (2023-2024)  
+• Designed incident severity classification and escalation procedures
+• Created standardized playbooks aligned with NIST 800-61 guidelines
+• Established cross-department incident response coordination protocols
+
+AWS FORENSICS LAB ENVIRONMENT (2024)
+• Built automated evidence collection using EC2 snapshots and S3 storage
+• Implemented secure analysis environment for compromised resource investigation
+• Developed chain of custody procedures for digital evidence handling
+
+DETECTION ENGINEERING PROGRAM (2023-Present)
+• Developed custom detection signatures for IAM privilege escalation and lateral movement
+• Mapped organizational detection coverage to MITRE ATT&CK framework
+• Integrated threat intelligence feeds to reduce false positive rates
+
+PROFESSIONAL ACTIVITIES
+• Conferences: DEFCON, BSides, TenguSec | CTF: HackTheBox (dt9#23363), CTFtime (uofagold)
+• Speaking: Delivered workshops on phishing awareness and Falco container security
+
+═══════════════════════════════════════════════════════════════════════════════════════
+
+ADDITIONAL INFORMATION
+═══════════════════════════════════════════════════════════════════════════════════════
+
+LANGUAGES: English (Native), Japanese (Business - JLPT N3)
+INTERESTS: Cybersecurity research, rock climbing, scuba diving, travel
